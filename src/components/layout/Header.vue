@@ -4,6 +4,7 @@
     <div id="nav">
       <router-link to="/">Modal</router-link>|
       <router-link to="/slider">Slider</router-link>
+      <router-link to="/shop">Shop</router-link>
     </div>
   </header>
 </template>

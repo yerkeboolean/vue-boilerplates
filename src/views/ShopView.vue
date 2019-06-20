@@ -1,6 +1,6 @@
 <template>
   <div class="goods">
-    <div v-bind:key="good.id" v-for="good in allGoods" c></div>
+    <div v-bind:key="good.id" v-for="good in allGoods">{{good.name}}</div>
   </div>
 </template>
 
