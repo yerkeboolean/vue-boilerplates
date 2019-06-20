@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div class="goods">
+    <div v-bind:key="good.id" v-for="good in allGoods" c></div>
+  </div>
 </template>
 
 <script>
