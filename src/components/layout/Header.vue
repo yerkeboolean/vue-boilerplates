@@ -3,8 +3,10 @@
     <h1>Boilerplates</h1>
     <div id="nav">
       <router-link to="/">Modal</router-link>|
-      <router-link to="/slider">Slider</router-link>
-      <router-link to="/shop">Shop</router-link>
+      <router-link to="/slider">Slider</router-link>|
+      <router-link to="/shop">Shop</router-link>|
+      <router-link to="/animations">Animations</router-link>|
+      <router-link to="/table">Table</router-link>
     </div>
   </header>
 </template>
