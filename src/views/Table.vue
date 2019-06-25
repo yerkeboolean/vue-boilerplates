@@ -1,5 +1,7 @@
 <template>
   <div class="table-wrapper">
+    <div class="headline-header">Заявки</div>
+
     <div class="button-group">
       <button
         :disabled="selected==='все заказы'"
@@ -73,6 +75,20 @@ export default {
 .table-wrapper {
   display: flex;
   flex-direction: column;
+  padding: 2vw;
+}
+.headline-header {
+  padding: 0.5vw 1vw;
+  margin: 0 2vw;
+  background-color: #00b6f0;
+  width: 100px;
+  text-align: center;
+  border-radius: 0 9px 9px 9px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
 }
 .button-group {
   text-align: left;
